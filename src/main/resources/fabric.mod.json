@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "citresewnspyglassfix",
+	"version": "${version}",
+	"name": "CITResewnSpyglassFix",
+	"description": "An addon for CIT Resewn that allows for custom spyglass models that work in hand!",
+	"authors": [
+		"EndlessStormWolf"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/citresewnspyglassfix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.endlessstormwolf.citresewnspyglassfix.CITResewnSpyglassFix"
+		]
+	},
+	"mixins": [
+		"citresewnspyglassfix.mixins.json"
+	],
+	"depends": {
+		"citresewn": "*",
+		"minecraft": "1.20.4"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
